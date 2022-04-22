@@ -1,0 +1,19 @@
+// $bg-colour: rgb(73, 59, 144);
+$bg-colour: rgb(75, 56, 168);
+$container-bg-colour: rgb(35, 35, 35);
+$card-colour: #efefef;
+$new-game-colour: #dd782f;
+$text-colour-light: $card-colour;
+$text-colour-dark: $container-bg-colour;
+$font-family: Roboto, sans-serif;
+
+$sizes: (
+  "s": 375px,
+  "m": 475px,
+  "l": 575px,
+);
+
+@mixin setSize($size) {
+  width: $size;
+  height: $size * 1.3;
+}
