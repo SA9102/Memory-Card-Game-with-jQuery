@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <title>Memory Card Game</title>
+  </head>
+  <body>
+    <div id="container">
+      <h1>Memory Card Game</h1>
+      <section id="select-game-size">
+        <p>Select game size:</p>
+        <form action="" id="form-select">
+          <div id="radio-buttons">
+            <div class="radio-btn">
+              <input type="radio" name="game-size" id="small" value="small" />
+              <label for="small">Small 5x2</label>
+            </div>
+            <div class="radio-btn">
+              <input type="radio" name="game-size" id="medium" value="medium" />
+              <label for="medium">Medium 6x3</label>
+            </div>
+            <div class="radio-btn">
+              <input type="radio" name="game-size" id="large" value="large" />
+              <label for="large">Large 7x4</label>
+            </div>
+            <div class="radio-btn">
+              <input type="radio" name="game-size" id="huge" value="huge" />
+              <label for="huge">Huge 8x5</label>
+            </div>
+          </div>
+
+          <button type="submit" id="new-game">New Game</button>
+        </form>
+      </section>
+
+      <section id="cards"></section>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
