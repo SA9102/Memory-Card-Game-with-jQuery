@@ -1,0 +1,10 @@
+{
+  "homepage": "https://sa9102.github.io/Memory-Card-Game-with-jQuery",
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
+}
